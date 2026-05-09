@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Todos</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="app">
+    <h1>Todos</h1>
+    <form id="form">
+      <input id="text" name="text" placeholder="What next?" autocomplete="off" />
+      <button type="submit">Add</button>
+    </form>
+    <div class="filters" role="group" aria-label="Filter">
+      <button type="button" data-filter="all">All</button>
+      <button type="button" data-filter="active">Active</button>
+      <button type="button" data-filter="done">Done</button>
+    </div>
+    <ul id="list"></ul>
+    <p id="empty" hidden>No tasks match this filter.</p>
+  </main>
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
