@@ -1,0 +1,12 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; background: #111827; color: #e5e7eb; }
+.app { max-width: 520px; margin: 0 auto; }
+form { display: flex; gap: 0.5rem; margin-bottom: 1rem; }
+input { flex: 1; padding: 0.5rem 0.75rem; border-radius: 8px; border: 1px solid #374151; background: #1f2937; color: inherit; }
+button { padding: 0.5rem 0.75rem; border-radius: 8px; border: 0; cursor: pointer; background: #3b82f6; color: white; font-weight: 600; }
+.filters { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+.filters button { background: #374151; }
+.filters button[aria-pressed="true"] { background: #3b82f6; }
+ul { list-style: none; padding: 0; margin: 0; }
+li { display: flex; align-items: center; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #374151; }
+li label { display: flex; gap: 0.5rem; align-items: center; }
+#empty { color: #9ca3af; font-size: 0.95rem; }
